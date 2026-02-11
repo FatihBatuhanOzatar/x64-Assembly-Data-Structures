@@ -1,13 +1,11 @@
+# Graph Adjacency List
 
-; PROJECT: x86-64 Assembly Graph (Adjacency List)
-; AUTHOR: Fatih Batuhan Ozatar
-; STATUS: Experimental / Research & Development
-;
-; DESCRIPTION:
-; A directed graph implementation using manual memory management in x86-64 Assembly.
-; Focuses on low-level pointer arithmetic and register-level data flow.
-;
-; TECHNICAL SPECS:
-; - Memory Strategy: Pre-allocated vertex/edge pools in the .bss section.
-; - Data Structure: Adjacency List using head-insertion logic.
-; - Core Logic: Manual offset calculation for 16-byte node structures.
+A directed graph implementation using manual memory management.
+
+### Key Features
+* **Memory Pool:** Pre-allocated vertex and edge slots in the `.bss` section to avoid dynamic allocation overhead.
+* **Logic:** Adjacency list approach using head-insertion for edges.
+* **Core Focus:** Pointer arithmetic and manual memory offset calculations using 64-bit registers.
+
+### Purpose
+To demonstrate the fundamental handling of graphs without high-level abstractions, focusing on raw memory layout.
