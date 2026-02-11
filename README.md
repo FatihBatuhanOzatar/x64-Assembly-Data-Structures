@@ -1,2 +1,11 @@
-# x64-Assembly-Data-Structures
-Low-level implementation of Graph and XOR Linked List data structures using x86-64 Assembly (NASM). Focused on memory management and bitwise optimization.
+# x86-64 Assembly Data Structures
+
+Experimental implementations of complex data structures at the hardware level. Developed to master memory addressing and register-level logic.
+
+### Tech Stack
+* **Language:** x86-64 Assembly (NASM)
+* **Platform:** Linux (x86_64)
+
+### Contents
+* **Graph Implementation:** Memory-pool based adjacency list using directed edges.
+* **XOR Linked List:** Memory-efficient doubly linked list using bitwise XOR operations.
